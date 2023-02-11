@@ -1,0 +1,47 @@
+.navbarbg{
+    background-color: aquamarine;
+}
+.navbartxt{
+    color: black;
+}
+
+.bg {
+    background-color:rgb(143, 244, 222); 
+   
+    padding: 10px;
+    
+ }
+ .secbg {
+    margin:10px;
+    padding: 20px;
+    background-color:aquamarine;
+   
+ }
+ .formbg{
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    width: 20vw;
+ }
+ .p{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #edf0f3;
+}
+.c {
+    padding:20px;
+}
+.p1{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #0d2c48;
+}
+.p2{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: normal;
+    color: #0c2a44;
+}

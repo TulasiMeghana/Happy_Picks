@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="CSS/contact.css">
+    <head>
+        
+        <title>CONTACT | HAPPY PICKS</title>
+        <link rel="canonical" href="contact.html">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+   
+
+    <body>
+        <nav class="navbar nav-tabs navbar-expand-lg navbar-light navbarbg">
+            <a class="navbar-brand navbartxt" href="home.html"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon line"></span>
+            </button>
+            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link px-3" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link px-3 " href="donate.html">DONATE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3 " href="reportrescue.html">REPORT RESCUE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3 " href="contact.html">CONTACT</a>
+                </li>
+                
+                
+              </ul>
+              
+            </div>
+          </nav>
+          <div class=" d-flex flex-row justify-content-center bg ">
+            <div class="secbg  col-md-4 d-flex flex-column justify-content-center">
+                <h3 class="p1">Convey your message here:</h3>
+                <form class="formbg" id="contact-form" method="post" action="contact.php" role="form">
+                    <div class="controls">
+                        <div class="form-group">
+                            <label for="form_name" class="p"><span>*</span>Name</label><br>
+                            <input type="text" id="form_name" name="name"class="form-control" placeholder="John" required="required"
+                            data-error="Firstname is required."><br><br>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form_email" class="p"><span>*</span>Email</label><br>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="example@example.com" required="required"
+                                data-error="Valid email is required."><br><br>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form_message" class="p"><span>*</span>Message</label><br>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Enter your message here..." rows="4" required="required"
+                                data-error="Please,leave us a message."></textarea><br><br>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <input type="submit" value="Submit">
+                        <p class="text-muted"><strong>*</strong> These fields are required.
+                    </div>
+
+                                
+                                
+
+
+                  </form>
+            </div>
+            
+            <div class="secbg col-md-4 d-flex flex-column justify-content-between">
+                <div class="c justify-content-center">
+                    <p class="p1">CONTACT</p>
+                    <p class="p2">MOBILE:456XXXX45<br>email:happypicks@gmail.com</p>
+                </div>
+                <div class="c justify-content-center" >
+                    <p class="p1">ADDRESS</p>
+                    <p class="p2">HAPPY PICKS<br>
+
+                        xxxxxxxx Road,<br>
+                        
+                        xxxxxx Village, xxxxx city,<br>
+                        
+                        xxxxx state, 5xxxx64<br>
+                        
+                        </p>
+                </div>
+                <div class="c justify-content-center">
+                    <p class="p1">TIMINGS</p>
+                    <p class="p2">Monday to Saturday,<br>
+
+                        11:00am to 4:00pm<br>
+                        
+                        Closed to Visitors on Mondays</p>
+                </div>
+            </div>
+            
+        </div>
+   
+
+
+
+    </body>
+
+</html>

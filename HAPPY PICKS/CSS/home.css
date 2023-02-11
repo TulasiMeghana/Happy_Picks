@@ -1,0 +1,50 @@
+.navbarbg{
+    background-color: aquamarine;
+}
+.navbartxt{
+    color: black;
+}
+.secbg {
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.bg {
+    background-color:rgb(143, 244, 222);
+    
+    text-align: center;
+    
+    padding: 20px;
+ }
+ .h {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bolder;
+    color: #323f4b;
+}
+.imgp{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c2a44;
+}
+.cim{
+    width: 150px;
+    height: 200px;
+}
+.imc {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    
+}
+.choosec{
+    padding: 20px;
+    background-image: url("img/paw1.jpg");
+    border-radius: 20px;
+    
+}

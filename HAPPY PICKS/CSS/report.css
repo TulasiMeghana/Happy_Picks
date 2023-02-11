@@ -1,0 +1,60 @@
+.navbarbg{
+    background-color: aquamarine;
+}
+.navbartxt{
+    color: black;
+}
+
+.bg {
+   background-color:rgb(143, 244, 222); 
+  
+   padding: 10px;
+   
+}
+.im{
+    height: 500px;
+    width: 400px;
+}
+.im2{
+    height: 400px;
+    width: 300px;
+}
+.secbg {
+    margin:10px;
+    padding: 20px;
+    background-color:aquamarine;
+   
+ }
+ h{
+   
+    font-family: "serif";
+    font-size: 24px;
+    font-weight: bolder;
+    color: #01070d;
+    
+ }
+ p{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c2a44;
+}
+.p1{
+    font-family: "serif";
+    font-size: 20px;
+    font-weight: normal;
+    color: #0c2a44;
+}
+.p2{
+    font-family: "serif";
+    font-size: 20px;
+    font-weight: normal;
+    color: #ebeff3;
+}
+.formbg{
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    
+ }

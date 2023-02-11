@@ -1,0 +1,39 @@
+.navbarbg{
+    background-color: aquamarine;
+}
+.navbartxt{
+    color: black;
+}
+.im{
+    width: 500px;
+    height: 350px;
+}
+.bg {
+    background-color:rgb(143, 244, 222); 
+    text-align: center;
+    padding: 10px;
+}
+.secbg {
+    margin:auto;
+    padding: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+.h1{
+    font-family: "papyrus";
+    font-size: 50px;
+    font-weight: bolder;
+    color: #01070d;
+}
+.p{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #0d2c48;
+}
+.p1{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: normal;
+    color: #0c2a44;
